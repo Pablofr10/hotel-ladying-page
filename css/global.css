@@ -1,0 +1,18 @@
+:root {
+  --cor-primaria: #ffffff;
+  --cor-secundaria: #e72574;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
