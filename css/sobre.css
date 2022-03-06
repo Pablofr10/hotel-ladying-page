@@ -1,0 +1,48 @@
+#sobre {
+  position: relative;
+}
+.reserva-form {
+  margin: 0 auto;
+  background: var(--cor-primaria);
+  width: 1200px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -40px;
+  box-shadow: 5px 5px 17px -3px rgba(0, 0, 0, 0.2);
+}
+
+.reserva-form img {
+  width: 40px;
+}
+
+.reserva-form .selecao {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.selecao .selecao-reserva span:nth-child(1) {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.selecao .selecao-reserva span:nth-child(2) {
+  position: relative;
+}
+
+.selecao .selecao-reserva span:nth-child(2)::after {
+  content: "";
+  display: inline-block;
+  background: url("../img/icons/seta-c.svg");
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+}
